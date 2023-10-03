@@ -9,6 +9,9 @@
     text-decoration: none;
     color: unset;
 }
+button{
+    cursor: pointer;
+}
 
 :root {
     --main-bg: #F5F5F5;
@@ -134,4 +137,62 @@ nav>ul>li:hover{
     width: 100%;
     transform: scaleX(-1);
 
+}
+
+/* portofolio */
+
+main{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.card-warp{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top:60px ;
+}
+
+.project-card{
+    width: min-content;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+    flex: 1;
+}
+.img-wrap{
+    display: flex;
+    width: 100%;
+}
+.img-wrap>img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.text-wrap{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    flex-grow: 1;
+    padding: 30px 20px;
+}
+.text-wrap>p{
+    margin-bottom: 10px;
+}
+
+.project-card button{
+    padding: 10px;
+    border: none;
+    background-color: var(--brand-color);
+    color: white;
 }
