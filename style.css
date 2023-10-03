@@ -195,4 +195,5 @@ main{
     border: none;
     background-color: var(--brand-color);
     color: white;
+    border-radius: 3px;
 }
