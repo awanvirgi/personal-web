@@ -197,3 +197,13 @@ main{
     color: white;
     border-radius: 3px;
 }
+
+/* about */
+.about-warp{
+    gap: 20px;
+    font-size: 1.3rem;
+    width: 800px;
+    margin-top: 20px;
+    text-indent: 2rem;
+    text-align: justify;
+}
