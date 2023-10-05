@@ -93,7 +93,7 @@ nav>ul>li:hover{
 
 }
 
-.social-media >i {
+.social-media >a>i {
     font-size: 28px;
     cursor: pointer;
 
