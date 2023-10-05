@@ -201,6 +201,9 @@ main{
     color: white;
     border-radius: 3px;
 }
+.project-card button:hover{
+    filter: brightness(120%);
+}
 
 /* about */
 .about-warp{
