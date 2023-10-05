@@ -168,6 +168,10 @@ main{
     text-align: center;
     flex: 1;
 }
+.project-card:hover{
+    scale: 1.1;
+}
+
 .img-wrap{
     display: flex;
     width: 100%;
@@ -211,7 +215,7 @@ main{
 
 /* blog` */
 .blog-wrap{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
