@@ -93,7 +93,7 @@ nav>ul>li:hover{
 
 }
 
-.social-media >i {
+.social-media >a>i {
     font-size: 28px;
     cursor: pointer;
 
@@ -200,6 +200,9 @@ main{
     background-color: var(--brand-color);
     color: white;
     border-radius: 3px;
+}
+.project-card button:hover{
+    filter: brightness(120%);
 }
 
 /* about */
